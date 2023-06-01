@@ -31,7 +31,7 @@ main {
 
 .side-panel ul {
     margin-bottom: 30%;
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 .side-panel li {
@@ -98,13 +98,14 @@ main {
     width: auto;
     border: 3px solid rgb(4, 223, 4);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .title {
     display: flex;
     gap: 1%;
     align-items: center;
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 .title img {
@@ -121,9 +122,10 @@ main {
 }
 
 .buttons button {
-    height: 30px;
-    width: 70px;
-    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    background-color: #0c2b46;
+    color: white;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -147,9 +149,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto, 1fr;
-    place-items: center;
-    align-content: center;
-    grid-gap: 8%;
+    margin: 5% 5%
 }
 
 .card {
@@ -158,8 +158,8 @@ main {
     justify-content: space-evenly;
     border: 1.5px solid #f4f26b;
     border-radius: 3px;
-    height: 150px;
-    width: 250px;
+    max-height: 200px;
+    max-width: 300px;
     padding: 10px;
 
     background-color: #bb9e60;
@@ -172,24 +172,24 @@ main {
     display: flex;
     justify-content: flex-end;
     gap: 10%;
-    height: 25px;
-    width: auto;
 }
 
 .icons img {
     cursor: pointer;
+    height: 25px;
+    width: auto;
 }
 
 .right-panel {
-    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .announcement-container {
     color: black;
+    max-width: 50%;
     max-height: 50%;
+    margin: 5% 0;
 }
 
 .announcement-container h2 {
@@ -208,6 +208,7 @@ main {
 
 .trending-container {
     color: black;
+    max-width: 50%;
     max-height: 50%;
    
 }
