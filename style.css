@@ -113,6 +113,7 @@ main {
     width: auto;
     border: 3px solid rgb(4, 223, 4);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .buttons {
